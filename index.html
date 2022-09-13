@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Honda Bazar</title>
+    <!----------------------goolge font ---------------------------->
+    <!--------------- font awesome-------------------- -->
+    <script src="https://kit.fontawesome.com/4179065c6e.js" crossorigin="anonymous"></script>
+    <!------------------------ bootstrap link------------------------->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!------------------- style css link---------------------- -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./index.html">Honda Bazar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link" href="#client">Client</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#fetured">Fetured</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#question">Ask Question</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="./login.html">Login</a>
+              </li>
+
+
+              
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <!------------------------- hero section ------------------------>
+    <header class="hero-header">
+        <section class="container">
+            <div class="row d-flex align-items-center justify-content-between py-5">
+                <div class="col-lg-5 col-sm-12 section-info ">
+                    <h6>Computer-controlled digital transistorized with electronic advance</h6>
+                    <h1>Honda CBR 300R</h1>
+                    <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat
+                        duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                    <!-------------------- ------------- modal button------------------------ ---------------- -->
+                    <button type="button" class="Purchase-btn my-4" data-bs-toggle="modal"
+                        data-bs-target="#myModal">Purchase</button>
+                    <div class="modal fade" id="myModal">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title">CONTACT US</h5>
+                                    <button type="button" class="btn-close " data-bs-dismiss="modal"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <form action="">
+                                        <div class="mb-3 ">
+                                            <label for="exampleFormControlInput1" class=" form-label requird">Email
+                                                address</label>
+                                            <input type="email" class="form-control" id="exampleFormControlInput1"
+                                                placeholder="name@example.com">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="exampleFormControlInput1"
+                                                class="form-label  requird">password</label>
+                                            <input type="password" class="form-control" id="exampleFormControlInput1"
+                                                placeholder="Enter your password">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="exampleFormControlInput1" class="form-label requird">Type your
+                                                Massage</label>
+                                            <textarea class="form-control" id="exampleFormControlInput1" name="" id=""
+                                                cols="" rows=""></textarea>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="modal-footer">
+                                    <button class="btn btn-info">Submit</button>
+                                    <button class="btn btn-danger">Submit</button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="col-lg-6 col-sm-12">
+                    <img class="w-100" src="images/header-bike.png" alt="">
+                </div>
+            </div>
+        </section>
+
+    </header>
+    <main>
+        <!-- -------------------------------------Fetured Bikes ----------------------------- -->
+        <section class="container py-4" id="fetured">
+            <div class="all">
+                <div class=" d-flex justify-content-center">
+                    <div class="fetured-bikes-title">
+                        <h1>Fetured Bikes 2021</h1>
+                        <p>Best bike collection</p>
+                        <hr class="w-25">
+                    </div>
+                </div>
+                <div class=" row row-cols-1 row-cols-md-3 gy-5 mb-4 ">
+                    <div class="col gx-5 ">
+                        <div class="card border-0 feature-bike">
+                            <img src="images/feature-bike.jpg" class="card-img-top" alt="...">
+                        </div>
+                    </div>
+                    <div class="col gx-5">
+                        <div class="card border-0 feature-bike active-feature-bike">
+                            <img src="images/feature-bike.jpg" class="card-img-top" alt="...">
+                        </div>
+                    </div>
+                    <div class="col gx-5">
+                        <div class="card border-0 feature-bike">
+                            <img src="images/feature-bike.jpg" class="card-img-top" alt="...">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-------------------- Happy Clients say section ----------------- -->
+        <section class="container" id="client">
+            <div class="section-titel">
+                <h1>Happy <span>Clients says</span></h1>
+            </div>
+
+
+            <div class="row row-cols-1 row-cols-md-3 g-4 mb-5">
+                <div class="col">
+                    <div class="card">
+                        <div class="singile-box p-5">
+                            <div class="images-area"> <img src="images/rameem.jpg" alt=""></div>
+                            <div class="images-title">
+                                <p>“In my history of working with trade show vendors, I can honestly say that there is
+                                    not one company that I've ever worked with that has better service than Exhibit
+                                    Systems.”</p>
+                                <div class="icons">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                                <h5>Mahmood Hasan Rameem</h5>
+                                <h6>Student</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <div class="singile-box p-5">
+                            <div class="images-area"> <img src="images/mahabul.jpg" alt=""></div>
+                            <div class="images-title">
+                                <p>“Exhibit Systems is above and beyond their competitors and I have talked and met with
+                                    the others. Some of them wouldn’t even follow up very well when I was just talking
+                                    to them about them.”</p>
+
+                                <div class="icons">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                                <h5>Md Mahabul Alom</h5>
+                                <h6>Student</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <div class="singile-box p-5">
+                            <div class="images-area"> <img src="images/baten.jpg" alt=""></div>
+                            <div class="images-title">
+                                <p>“I’m never really worried that the booth isn’t going to get there on time. I can call
+                                    over there and talk to anyone and get my questions answered in an instant. Ease of
+                                    getting a hold of people.
+                                </p>
+                                <div class="icons">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                                <h5>Md Abdul Baten</h5>
+                                <h6>Student</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <div class="singile-box p-5">
+                            <div class="images-area"> <img src="images/RASEL.jpg" alt=""></div>
+                            <div class="images-title">
+                                <p>“I’m never really worried that the booth isn’t going to get there on time. I can call
+                                    over there and talk to anyone and get my questions answered in an instant. Ease of
+                                    getting a hold of people.
+                                </p>
+                                <div class="icons">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                                <h5>Md JAHEDUL ISLAM RASEL</h5>
+                                <h6>Student</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <div class="singile-box p-5">
+                            <div class="images-area"> <img src="images/FAHMIDA.jpg" alt=""></div>
+                            <div class="images-title">
+                                <p>“I’m never really worried that the booth isn’t going to get there on time. I can call
+                                    over there and talk to anyone and get my questions answered in an instant. Ease of
+                                    getting a hold of people.
+                                </p>
+                                <div class="icons">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                                <h5>FAHMIDA YASMIN</h5>
+                                <h6>Student</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+
+
+
+
+        <!-------------------------------- Frequently Asked Questions------------------------- -->
+        <section class="container" id="question">
+            <div class="section-titel">
+                <h1>Frequently <span>Asked Questions</span></h1>
+            </div>
+            <div class="row  d-flex align-items-center justify-content-between ">
+                <div class="col-lg-6 col-sm-12">
+                    <div class="faq-images img-fluid">
+                        <img class="" src="images/faq.png" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-12">
+                    <h1 class="mb-5">Accordion with media</h1>
+                    <div class="accordion " id="accordionPanelsStayOpenExample">
+                        <div class="accordion-item mb-3 border border-info">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                                    aria-controls="panelsStayOpen-collapseOne">
+                                    <h4> What is Mobiries ?</4>
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+                                aria-labelledby="panelsStayOpen-headingOne">
+                                <div class="accordion-body">
+                                    <strong>This is the first item's accordion body.</strong> It is shown by default,
+                                    until the collapse plugin adds the appropriate classes that we use to style each
+                                    element. These classes control the overall appearance, as well as the showing and
+                                    hiding via CSS transitions. You can modify any of this with custom CSS or overriding
+                                    our default variables. It's also worth noting that just about any HTML can go within
+                                    the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item mb-3 border border-info">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                                    aria-controls="panelsStayOpen-collapseTwo">
+                                    <h4>It is good for me ?</h4>
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+                                aria-labelledby="panelsStayOpen-headingTwo">
+                                <div class="accordion-body">
+                                    <strong>This is the second item's accordion body.</strong> It is hidden by default,
+                                    until the collapse plugin adds the appropriate classes that we use to style each
+                                    element. These classes control the overall appearance, as well as the showing and
+                                    hiding via CSS transitions. You can modify any of this with custom CSS or overriding
+                                    our default variables. It's also worth noting that just about any HTML can go within
+                                    the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item mb-3 border border-info">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                                    aria-controls="panelsStayOpen-collapseThree">
+                                    <h4> Why Mobiries ?</4>
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+                                aria-labelledby="panelsStayOpen-headingThree">
+                                <div class="accordion-body">
+                                    <strong>This is the third item's accordion body.</strong> It is hidden by default,
+                                    until the collapse plugin adds the appropriate classes that we use to style each
+                                    element. These classes control the overall appearance, as well as the showing and
+                                    hiding via CSS transitions. You can modify any of this with custom CSS or overriding
+                                    our default variables. It's also worth noting that just about any HTML can go within
+                                    the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- -----------------------------------service section--------------------------- -->
+        <section class="container">
+            <div class="row  d-flex justify-content-center align-items-center service-banner my-4">
+                <div class="col-lg-4 service-person  col-sm-12 mb-4 img-fluid">
+                    <img class="img-fluid" src="images/pabel.jpg" alt="">
+                </div>
+                <div class="col-lg-5 col-sm-12 service-titel mb-4">
+                    <h4>LOOKING FOR SERVICE ?</h4>
+                    <h1>INROLL OUR BIKE SERVICE PLAN , EASY AND CHEAP</h1>
+                </div>
+                <div class="col-lg-2 col-sm-12  mb-4">
+                    <button class=" service-btn">More Option</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <p>&copy; Copyright:MD Pabel Pathan</p>
+   
+</body>
+
+</html>
